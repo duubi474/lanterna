@@ -95,7 +95,7 @@ public class CygwinTerminal extends UnixLikeTTYTerminal {
     }
 
     @Override
-    protected void acquire() throws IOException {
+    protected void acquire() {
         super.acquire();
         // Placeholder in case we want to add extra stty invocations for Cygwin
     }
